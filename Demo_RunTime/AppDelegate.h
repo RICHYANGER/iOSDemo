@@ -12,6 +12,10 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+
 @property (nonatomic, strong) NSObject *B;
+
+@property (nonatomic, strong) NSObject *C;
+
 @end
 
