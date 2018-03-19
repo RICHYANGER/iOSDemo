@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B403D03205F537F0015053A /* CTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B403D02205F537F0015053A /* CTTableViewCell.m */; };
+		9B403D06205F54290015053A /* CTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B403D05205F54290015053A /* CTView.m */; };
 		9B8D9D052048F9600001E3AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D9D042048F9600001E3AC /* AppDelegate.m */; };
 		9B8D9D082048F9600001E3AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D9D072048F9600001E3AC /* ViewController.m */; };
 		9B8D9D0B2048F9600001E3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D9D092048F9600001E3AC /* Main.storyboard */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B403D01205F537F0015053A /* CTTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTTableViewCell.h; sourceTree = "<group>"; };
+		9B403D02205F537F0015053A /* CTTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTTableViewCell.m; sourceTree = "<group>"; };
+		9B403D04205F54290015053A /* CTView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTView.h; sourceTree = "<group>"; };
+		9B403D05205F54290015053A /* CTView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTView.m; sourceTree = "<group>"; };
 		9B8D9D002048F9600001E3AC /* Demo_RunTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_RunTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8D9D032048F9600001E3AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B8D9D042048F9600001E3AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -111,7 +117,11 @@
 			isa = PBXGroup;
 			children = (
 				9B8D9D032048F9600001E3AC /* AppDelegate.h */,
+				9B403D01205F537F0015053A /* CTTableViewCell.h */,
+				9B403D02205F537F0015053A /* CTTableViewCell.m */,
 				9B8D9D042048F9600001E3AC /* AppDelegate.m */,
+				9B403D04205F54290015053A /* CTView.h */,
+				9B403D05205F54290015053A /* CTView.m */,
 				9B8D9D062048F9600001E3AC /* ViewController.h */,
 				9B8D9D072048F9600001E3AC /* ViewController.m */,
 				9B8D9D352048FFD00001E3AC /* CustomObject.h */,
@@ -285,6 +295,8 @@
 				9B8D9D052048F9600001E3AC /* AppDelegate.m in Sources */,
 				9B8D9D3A20492B870001E3AC /* UIView+RICHExtension.m in Sources */,
 				9B8D9D372048FFD00001E3AC /* CustomObject.m in Sources */,
+				9B403D06205F54290015053A /* CTView.m in Sources */,
+				9B403D03205F537F0015053A /* CTTableViewCell.m in Sources */,
 				9B8D9D3D20492E950001E3AC /* UIViewController+Tracking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
